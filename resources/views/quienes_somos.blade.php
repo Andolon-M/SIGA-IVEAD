@@ -10,7 +10,7 @@
         <div class="w-full ">
             <div class="rounded-lg shadow-lg bg-white flex justify-center items-center flex-col w-full h-full pt-3">
                 <ul>
-                    <h1 class="inset-0 flex items-center justify-center text-5xl text-green-600"><strong>¿Quienes Somos?</strong></h1>
+                    <h1 class="inset-0 flex items-center justify-center text-5xl text-green-600"><strong>¿Quienes Soooooomos?</strong></h1>
                 </ul>
                 <div class="flex items-center justify-center flex-wrap p-4 w-full ">
                     <div class="flex items-center justify-between">
