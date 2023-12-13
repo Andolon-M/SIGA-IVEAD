@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.dailyVerses.bibleVerse
+{
+margin-block-start: .5em;
+}
+
+.dailyVerses.bibleVerse a
+{
+font-weight: bold;
+}
+
+
+
+/* En tu archivo CSS o en tu archivo Blade */
+/* Transición de color de fondo */
+.nav-bg-scroll {
+    transition: background 0.3s ease;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Degradado transparente de arriba a abajo */
+}
+
+/* Cambio de color de fondo al desplazar */
+.nav-bg-scroll.scrolled {
+    background: rgb(255, 255, 255); /* Cambia a tu color deseado al desplazar la página */
+}
+
+/* Transición de color de texto */
+.text-name1 {
+    transition: color 0.5s ease;
+    color: rgb(2, 139, 75); /* Color de texto para Iglesia */
+}
+
+/* Transición de color de texto */
+.text-name2 {
+    transition: color 0.5s ease;
+    color: rgb(75, 75, 77); /* Color de texto para Vida y Esperanza */
+}
+
+
