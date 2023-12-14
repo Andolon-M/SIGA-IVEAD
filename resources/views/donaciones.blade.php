@@ -28,7 +28,7 @@ $preference = $client->create([
 
 
 ]);
-dd($preference);
+//dd($preference);
 
 ?>
 
