@@ -22,11 +22,11 @@
       @auth
 
       <div class="h-16 flex justify-center items-center">
-        <a id="tex_navbar3" href="{{ route('donaciones.index') }}" class="py-1 px-4 flex h-fit hover:border-2 hover:border-green-200 rounded-xl focus:ring-4 focus:ring-green-700 dark:focus:ring-green-900 text-white hover:text-bg-white">
-          <p class="text font-serif">
+       <!--  <a id="tex_navbar3" href="{{ route('donaciones.index') }}" class="py-1 px-4 flex h-fit hover:border-2 hover:border-green-200 rounded-xl focus:ring-4 focus:ring-green-700 dark:focus:ring-green-900 text-white hover:text-bg-white">
+         <p class="text font-serif">
             Donaciones
           </p>
-        </a>
+        </a>-->
 
         <!--boton menu del usuario-->
         <button class="flex items-center justify-center h-fit py-1 px-3 space-x-2 bg-green-600 hover:bg-green-900 hover:text-white  rounded-full focus:ring-4 focus:ring-green-700 " aria-expanded="false" data-dropdown-toggle="dropdown-user">
