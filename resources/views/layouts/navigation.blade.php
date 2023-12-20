@@ -93,11 +93,11 @@
          <!-- Esto se muestra solo cuando el usuario no está autenticado -->
          <div class="h-16 flex justify-center items-center">
 
-            <a id="tex_navbar3" href="{{ route('donaciones.index') }}" class="py-1 px-4 flex h-fit hover:border-2 hover:border-green-200 rounded-xl focus:ring-4 focus:ring-green-700 dark:focus:ring-green-900 text-green-700 hover:text-bg-white">
+           <!-- <a id="tex_navbar3" href="{{ route('donaciones.index') }}" class="py-1 px-4 flex h-fit hover:border-2 hover:border-green-200 rounded-xl focus:ring-4 focus:ring-green-700 dark:focus:ring-green-900 text-green-700 hover:text-bg-white">
                <p class="text font-serif">
                   Donaciones
                </p>
-            </a>
+            </a>-->
 
             <a id="tex_navbar4" href="{{ route('login') }}" class="py-1 px-4 flex h-fit hover:border-2 hover:border-green-200 rounded-xl focus:ring-4 focus:ring-green-700 dark:focus:ring-green-900 text-green-700 hover:text-bg-white">
                <p class="text font-serif">
