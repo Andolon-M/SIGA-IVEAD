@@ -128,9 +128,11 @@
    </aside>
    <div class="pt-16 pb-4 px-4 sm:ml-64">
       <div class="mt-1 py-2 max-w-full px-2 lg:px-4 space-y-4   border-2 border-gray-200 border-dashed rounded-lg text-green-900 dark:text-neutral-50 dark:border-gray-700">
-         @if ($message = Session::get('success'))
-         <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4">
-            <p>{{ $message }}</p>
+         @if(session('success'))
+         <div class="bg-green-500 rounded-lg shadow-md p-4 m-5">
+            <div>
+                  <p class="text-white font-style: italic;"> {!! session('success') !!}</p>
+            </div>
          </div>
          @endif
 
