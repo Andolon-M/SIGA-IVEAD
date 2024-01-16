@@ -1,6 +1,14 @@
 @extends('/layouts.dashboard')
 <script async defer src="https://dailyverses.net/get/verse.js?language=nvi"></script>
 @section('panel')
+
+@if(session('success'))
+    <div class="bg-green-500 rounded-lg shadow-md p-4 m-5">
+        <div>
+            <p class="text-white font-style: italic;"> {!! session('success') !!}</p>
+        </div>
+    </div>
+    @endif
 <h1 class="text-green-900 dark:text-neutral-50 text-2xl">
     <strong>PANEL DESCUBRIR IGLESIA VIDA Y ESPERANZA</strong>
 </h1>
